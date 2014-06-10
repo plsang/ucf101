@@ -39,8 +39,7 @@ function calker_test_kernel(ker, start_split, end_split)
 	
 	scores = {};
 	
-	%for ss=start_split:end_split,
-	for ss=2:3,
+	for ss=start_split:end_split,
 		
 		split = splits{ss};
 		
